@@ -1,0 +1,27 @@
+:root {
+    --box-color: #0B0130;
+    --text-color: #C9F897;
+    --accent-color: #2CBF7A;
+    --addl-color: #0149A3;
+}
+
+.App {
+  background-image: url("./resources/app-bg.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: var(--box-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 5rem;
+}
+
+.App-header span {
+    color: var(--accent-color);
+}
